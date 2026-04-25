@@ -1,7 +1,7 @@
 
 
 <h1>Virtual Network Security Lab</h1>
-<p><strong>pfSense | VLANs | VPN | VirtualBox</strong></p>
+<p><strong>pfSense | VLANs | VPN</strong></p>
 
 <div class="section">
 <h2>Overview</h2>
