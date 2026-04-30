@@ -19,7 +19,7 @@ This project is a fully segmented virtual network security lab built using pfSen
 </div>
 
 <div class="section">
-<h2>🧱 Architecture</h2>
+
 
 
 <div class="section">
@@ -33,7 +33,7 @@ This project is a fully segmented virtual network security lab built using pfSen
 
 <ul>
 <li>pfSense Firewall</li>
-<li>Ubuntu Workstation</li>
+<li>Ubuntu Workstation and target</li>
 <li>Kali Linux Attacker</li>
 <li>Metasploitable2 Target</li>
 </ul>
@@ -92,19 +92,35 @@ This project is a fully segmented virtual network security lab built using pfSen
 
 <div class="section">
 <h2>🔥 Stage 7: Firewall Rules</h2>
-<p>Configured default deny policy and controlled access rules.</p>
+<p>Configured default deny policy and controlled access rules to both metasploitable 2 and ubuntu virtual machines.</p>
 
-<img src="images/05-firewall-rules.png" alt="Firewall Rules">
+<img width="1203" height="684" alt="Screenshot From 2026-04-29 21-15-40" src="https://github.com/user-attachments/assets/201b05c8-2704-463a-b681-f381d93bd475" />
+
+
+<p>I tested the firewall rule by simulated the attack on my ubuntu virtual machine using kali and it successfully blocked it once implemented the rules.</p>
+
+  <img width="656" height="518" alt="Screenshot From 2026-04-29 21-19-57" src="https://github.com/user-attachments/assets/473ea044-3457-4b08-ab4d-35356f92e02a" />
+
+
+
+
 </div>
 
 
 
 <div class="section">
-<h2>🧩 Stage 8: VLAN Segmentation</h2>
+<h2>🧩 Stage 8: VLAN Segmentation & DHCP Server</h2>
 <p>Implemented VLAN isolation between users and servers.</p>
 
+<img width="1184" height="565" alt="edited vlan (Edited)" src="https://github.com/user-attachments/assets/c1e44631-8bc9-4e1e-bb5f-56d33def7268" />
 
-<img src="images/04-vlan.png" alt="VLAN Config">
+
+<p>Implemented a DHCP server for each interface of VLAN that is assigned.</p>
+
+<img width="1187" height="489" alt="DHCPserver" src="https://github.com/user-attachments/assets/6f340a34-1ca1-46e5-be64-498ff7630dad" />
+
+
+
 </div>
 
 
@@ -112,14 +128,16 @@ This project is a fully segmented virtual network security lab built using pfSen
 <h2>🏁 Stage 9: Final Lab State</h2>
 <p>Fully functional segmented network with validated controls.</p>
 
-<img src="images/08-final-lab.png" alt="Final Lab">
+
+<img width="722" height="458" alt="Screenshot From 2026-04-29 22-46-14" src="https://github.com/user-attachments/assets/855172c9-ea6d-4a0b-b969-90680d6bc9c7" />
+
+
 </div>
 
 <div class="section">
 <h2>🧠 Skills Demonstrated</h2>
 
 <ul>
-<li>Network Architecture Design</li>
 <li>Firewall Configuration (pfSense)</li>
 <li>VLAN Segmentation</li>
 <li>Penetration Testing</li>
@@ -134,11 +152,9 @@ This project is a fully segmented virtual network security lab built using pfSen
 <div class="section">
 <h2>📈 Future Improvements</h2>
 <ul>
-<li>Deploy IDS/IPS (Suricata / Snort)</li>
 <li>Integrate SIEM (Wazuh / Splunk)</li>
 <li>Automate firewall rules</li>
 <li>Add Active Directory</li>
-<li>Simulate lateral movement attacks</li>
 </ul>
 </div>
 
