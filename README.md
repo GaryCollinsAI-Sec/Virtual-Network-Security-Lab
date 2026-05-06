@@ -1,6 +1,6 @@
 
 
-<h1>Enterprise Network Security Lab</h1>
+<h1>Enterprise Network & Security Lab</h1>
 <p><strong>pfSense | VLANs | Wireshark | Suricata</strong></p>
 
 <div class="section">
