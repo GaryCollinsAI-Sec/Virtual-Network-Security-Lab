@@ -58,7 +58,7 @@ This project is a fully segmented virtual network security lab built using pfSen
 <p>Installed and configured firewall routing and DHCP.</p>
 
 <img width="723" height="459" alt="Screenshot From 2026-04-25 11-26-15" src="https://github.com/user-attachments/assets/a979b6d4-c7b1-42a2-badd-52d798a93a14" />
-" alt="pfSense Dashboard">
+<" alt="pfSense Dashboard">
 </div>
 
 
