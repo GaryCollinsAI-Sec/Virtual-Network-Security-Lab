@@ -163,6 +163,16 @@ This project is a fully segmented virtual network security lab built using pfSen
 <p>
 This project demonstrates a fully segmented and secured virtual network environment combining defensive and offensive security techniques. It reflects real-world enterprise concepts such as least privilege, network segmentation, and firewall enforcement.
 </p>
+
+<hr>
+
+<h2>🔗 Project Links</h2>
+<p>
+  <a href="https://github.com/GaryCollinsAI-Sec">Main Portfolio</a>
+</p>
+
+
+  
 </div>
 
 </div>
